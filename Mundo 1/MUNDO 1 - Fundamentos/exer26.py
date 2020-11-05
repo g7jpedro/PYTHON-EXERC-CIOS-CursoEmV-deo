@@ -1,0 +1,6 @@
+frase = str(input('Digite uma frase: ')).strip().upper()
+letra = str(input('Digite a letra a ser analisada: ')).strip().upper()
+print('---------------------------------------ANALISANDO------------------------------------------')
+print(f'O número de {letra} que aparecem na frase é:',frase.count(letra))
+print('Ela aparece na posição:',frase.find(letra))
+print('Ela aparece a última vez na posição: ',frase.rfind(letra))

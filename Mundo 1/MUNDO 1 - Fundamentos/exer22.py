@@ -1,0 +1,5 @@
+nome = str(input('Digite o nome da cidade: ')).strip()
+print('.............................Analisando o nome da cidade..............................')
+print('Seu nome em maiúsculo é: ',nome.upper())
+print(f'Seu nome em minúsculo é: ',nome.lower())
+print('O nome da cidade tem',len(nome) - nome.count(' '))
