@@ -1,3 +1,4 @@
+#Faça um programa que leia um número Inteiro qualquer e mostre na tela a sua tabuada.
 n = int(input('Digite o valor: '))
 print('-'*15)
 print(f'{n} x 1 = {n*1}')
